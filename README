@@ -1,31 +1,15 @@
-# Sequential-Alembic-Migrations
+# Последовательные миграции Alembic
+**Шаблон для создания пронумерованных миграций Alembic.** 🚀
 
-**Template for creating numbered Alembic migrations.** 🚀
+Этот шаблон для проектов предлагает простое решение для автоматического создания пронумерованных версий миграций Alembic, что обеспечивает единообразие соглашений об именовании в вашем проекте.
 
-This project provides a simple solution to automatically generate numbered revisions for Alembic migrations, ensuring consistent naming conventions across your project.
+## Особенности
+- Автоматическое создание последовательно пронумерованных идентификаторов миграций.
+- Реализация на примере SQLite.
+- Простая настройка с помощью стандартных параметров Alembic.
 
-## Features
-- Automatically generates sequentially-numbered migration IDs.
-- Supports SQLite out of the box.
-- Easily configurable through standard Alembic settings.
+## Участие в проекте
+Не стесняйтесь сообщать о проблемах или отправлять запросы на включение изменений, если вы обнаружили какие-либо ошибки или хотите предложить улучшения.
 
-## Installation
-To use this template, follow these steps:
-bash
-git clone https://github.com/yourusername/Sequential-Alembic-Migrations.git
-cd Sequential-Alembic-Migrations
-pip install .
-## Usage
-Add the following snippet into your env.py:
-
-python
-def process_revision_directives(context, revision, directives):
-    # Generate sequential revision IDs here
-    pass
-See the full documentation for more details on customization options.
-
-## Contributing
-Feel free to submit issues or pull requests if you find any bugs or want to suggest improvements.
-
-## License
-MIT License
+## Лицензия
+Лицензия MIT
